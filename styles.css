@@ -1,1 +1,26 @@
 /* your code here */
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+.product__photo {
+    flex: 1;
+}
+.product__info {
+    flex: 1;
+    padding: 20px;
+}
+.photo-main img {
+    width: 100%; /* Make the image responsive */
+}
+.variant img {
+    width: 50px; /* Thumbnail size */
+    cursor: pointer; /* Change cursor on hover */
+}
+button {
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
